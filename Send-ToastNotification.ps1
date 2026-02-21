@@ -54,7 +54,9 @@
     Recommended: 364x180 px (~2:1 ratio).
 
 .PARAMETER Attribution
-    Small grey subtext shown at the bottom of the notification (e.g. "IT Department").
+    Optional small grey subtext shown at the bottom of the notification.
+    Useful for adding a secondary identifier or contact info. If you are using -RegisterApp
+    to brand notifications with a display name, this field may not be necessary.
 
 .PARAMETER Duration
     How long the toast remains on screen. 'Short' (~7s) or 'Long' (~25s). Default: Long.
